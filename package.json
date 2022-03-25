@@ -1,0 +1,9 @@
+{
+  "name": "style-boilerplate",
+  "version": "1.0.0",
+  "description": "CSS architecture",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Anes Marzuki",
+  "license": "ISC"
+}

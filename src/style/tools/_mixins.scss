@@ -1,0 +1,18 @@
+// Position the current element as absolute.
+//
+// @param  {Number}  $top    - top value.
+// @param  {Number}  $right    - right value.
+// @param  {Number}  $bottom    - bottom value.
+// @param  {Number}  $left    - left value.
+// @param  {Number}  $x    - x value.
+// @param  {Number}  $y    - y value.
+// @output 
+//
+@mixin absolute($top, $right, $bottom, $left, $x, $y) {
+    position: absolute;
+    top: $top;
+    left: $left;
+    right: $right;
+    bottom: $bottom;
+    transform: translate($x, $y);
+}

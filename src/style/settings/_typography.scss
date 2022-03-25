@@ -1,0 +1,27 @@
+// Font Families ===============================================================
+$font-sans-serif: Arial, sans-serif;
+// $font-serif:;
+
+// Typography ==================================================================
+// Base
+$font-size:     16px;
+$line-height:   24px / $font-size;
+$font-family:   $font-sans-serif;
+$color:         #222222;
+
+// Headings
+$font-size-h1:  13.5vw !default;
+$font-size-h2:  32px !default;
+$font-size-h3:  24px !default;
+$font-size-h4:  16px !default;
+$font-size-h5:  16px !default;
+$font-size-h6:  15px !default;
+$line-height-h: $line-height;
+
+// Weights
+$light:         300;
+$normal:        400;
+$medium:        500;
+$semi-bold:     600;
+$bold:          700;
+$black:         900;
